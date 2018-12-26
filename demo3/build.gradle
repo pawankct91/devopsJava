@@ -34,3 +34,21 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
+sonarqube{
+ properties {
+        property 'sonar.projectKey', 'otr-aftersales:d2d-service'
+        property 'sonar.projectName', 'otr-aftersales-d2d-service'
+        property "sonar.exclusions", "**/exception/**," +
+                "**/configuration/**," +
+                "**/constant/**," +
+                "**/dto/**," +
+                "**/client/**," +
+                "**/entity/**," +
+                "**/D2dServiceApplication.java," +
+                "**/enums/**," +
+                "**/exception.java," +
+                "**/producer/**," +
+                "**/repositories/**," +
+                "**/consumer/**"
+    }
+}
