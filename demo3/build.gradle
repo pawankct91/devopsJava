@@ -22,6 +22,7 @@ apply plugin: 'org.sonarqube'
 
 sonarqube {
 	properties {
+		property "sonar.projectName", "Pawan Shramaooo"
 		property "sonar.sourceEncoding", "UTF-8"
 	}
 }
