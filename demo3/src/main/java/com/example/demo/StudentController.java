@@ -9,6 +9,8 @@ public class StudentController {
 
 	@GetMapping("/data")
 	public String getInfo() {
+
+		System.out.println(" dfsdafkdjsaj");
 		return "Pawan Sharma";
 	}
 	
