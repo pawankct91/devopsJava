@@ -22,13 +22,9 @@ apply plugin: 'org.sonarqube'
 
 sonarqube {
 	properties {
-		property "sonar.projectName", "Pawan Shramaooo"
+		property "sonar.projectName", "project  display name"
 		property "sonar.sourceEncoding", "UTF-8"
 	}
-}
-
-task pawan {
-	print("fdsafsa");
 }
 group = 'com.example'
 version = '1.0'
